@@ -1,0 +1,142 @@
+/* HEADER COMPONENT STYLING */
+.header-container {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    height: 5em;
+    padding: 20px;
+    font-size:16px;
+    font-family: Helvetica, sans-serif;
+    background: #000000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #0f9b0f, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #0f9b0f, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.login-container {
+    width: 35%;
+    margin: auto;
+    position: absolute;
+    left: 0px;
+}
+
+.login-container ul li {
+    list-style: none;
+    display: inline;
+    padding: 10px;
+}
+
+.login-container ul li a {
+    color:white;
+}
+
+a:hover {
+    font-weight: bold;
+    transition: font-weight .1s;
+    text-decoration: none;
+}
+
+.navigation {
+    width: 35%;
+    position: absolute;
+    right: 0px;
+    margin: auto;
+}
+
+.navigation li {
+    list-style: none;
+    display: inline;
+    padding: 10px;
+}
+
+.navigation li a{
+    color:white;
+    text-decoration: none;
+}
+
+.navigation li :hover{
+    font-weight: bold;
+}
+
+/* END OF HEADER STYLING */
+
+/* DASHBOARD STYLE PORTION */
+
+.dashboard-container {
+    background: #000000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #0f9b0f, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #0f9b0f, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-image: url('./images/banner.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgb(38, 38, 38, .5);
+    width: 88%;
+    height: 500px;
+    margin: auto;
+    padding-top: 5em;
+    -webkit-box-shadow: 0 10px 6px -6px #777;
+    -moz-box-shadow: 0 10px 6px -6px #777;
+    box-shadow: 0 10px 6px -6px #777;
+}
+
+.dashboard-title {
+    margin: auto;
+    background-color: rgb(0, 0, 0, .6);
+    text-align: center;
+}
+
+.dashboard-title p {
+    font-family: Geneva, Tahoma, Verdana, sans-serif; font-size: 24px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 700; 
+    font-size: 80px;
+    opacity: 1;
+    color: white;
+}
+
+/* END OF DASHBOARD STYLE */
+
+/* SERVICES STYLES */
+.services-container {
+    background: #1D976C;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #93F9B9, #1D976C);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #93F9B9, #1D976C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    width: 88%;
+    margin: auto;
+    margin-top: 5em;
+    text-align: center;
+    -webkit-box-shadow: 0 10px 6px -6px #777;
+    -moz-box-shadow: 0 10px 6px -6px #777;
+    box-shadow: 0 10px 6px -6px #777;
+}
+
+.services-container .services-title {
+    margin: auto;
+    font-size: 40px;
+    font-family: dosis;
+    color:rgb(77, 77, 77)
+}
+
+.services-container img {
+    height: 200px;
+    width: 300px;
+    border-radius: 50%;
+    margin: auto;
+}
+
+.services-container ul {
+    margin: auto;
+    align-content: center;
+}
+
+.services-container ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 2em;
+    margin: auto;
+}
+
+.service-label {
+    font-size: 25px;
+}
+/* END OF SERVICES STYLES */
