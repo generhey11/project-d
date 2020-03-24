@@ -11,8 +11,8 @@ export class Services extends Component {
 
     render(){
         return(
-            <div className="services-container">
-                <p className="services-title">SERVICES</p>
+            <div className="services-container container">
+                <p className="services-title ">SERVICES</p>
                 <ul className="services-icons">
                     <li>
                         <img src={WebappIcon} alt="" className="webapp-icon"/>
